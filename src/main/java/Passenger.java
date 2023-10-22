@@ -8,5 +8,12 @@ public class Passenger {
     }
 
 
+    public String getName() {
+        return this.name;
+    }
 
+
+    public int getBags() {
+        return this.bags;
+    }
 }
