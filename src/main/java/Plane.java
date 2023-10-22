@@ -8,4 +8,16 @@ public class Plane {
         this.capacity = capacity;
         this.totalWeight = totalWeight;
     }
+
+    public PlaneType getPlaneType() {
+        return planeType;
+    }
+
+    public int getCapacity() {
+        return capacity;
+    }
+
+    public double getTotalWeight() {
+        return totalWeight;
+    }
 }
