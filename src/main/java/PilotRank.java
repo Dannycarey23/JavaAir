@@ -1,0 +1,8 @@
+public enum PilotRank {
+    CAPTAIN,
+    SENIORFIRSTOFFICER,
+    FIRSTOFFICER,
+    SECONDOFFICER,
+    OFFICER
+
+}
