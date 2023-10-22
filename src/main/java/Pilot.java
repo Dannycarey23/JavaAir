@@ -9,4 +9,16 @@ public class Pilot {
         this.licenceNumber = licenceNumber;
 
     }
+
+    public String getName() {
+        return this.name;
+    }
+
+    public PilotRank getRank() {
+        return this.pilotRank;
+    }
+
+    public String getLicenceNo() {
+        return this.licenceNumber;
+    }
 }
