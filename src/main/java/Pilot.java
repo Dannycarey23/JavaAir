@@ -21,4 +21,9 @@ public class Pilot {
     public String getLicenceNo() {
         return this.licenceNumber;
     }
+
+    public String flyPlane() {
+        return "Don't call me Shirley.";
+    }
+
 }

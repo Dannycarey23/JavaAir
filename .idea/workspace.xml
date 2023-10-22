@@ -4,9 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="96d6b6fc-5264-49c1-b798-fc205d23345e" name="Changes" comment="passenger initial tests completed">
-      <change afterPath="$PROJECT_DIR$/src/test/java/PlaneTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Plane.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Plane.java" afterDir="false" />
+    <list default="true" id="96d6b6fc-5264-49c1-b798-fc205d23345e" name="Changes" comment="plane tests completed">
+      <change afterPath="$PROJECT_DIR$/src/main/java/Runner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/FlightTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/CabinCrewMember.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/CabinCrewMember.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Flight.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Flight.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Pilot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Pilot.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/PilotTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/PilotTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,11 +68,20 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;advanced.settings&quot;
   }
 }</component>
-  <component name="RunManager" selected="JUnit.PlaneTest">
+  <component name="RunManager" selected="JUnit.FlightTest">
     <configuration name="CabinCrewMemberTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JavaAir" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="CabinCrewMemberTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FlightTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JavaAir" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="FlightTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -102,6 +116,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.FlightTest" />
         <item itemvalue="JUnit.PlaneTest" />
         <item itemvalue="JUnit.PassengerTest" />
         <item itemvalue="JUnit.PilotTest" />
@@ -158,7 +173,15 @@
       <option name="project" value="LOCAL" />
       <updated>1698001423808</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="plane tests completed">
+      <option name="closed" value="true" />
+      <created>1698001945886</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1698001945886</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -178,7 +201,8 @@
     <MESSAGE value="added classes and constructors." />
     <MESSAGE value="cabin crew &amp; pilots initial testing completed" />
     <MESSAGE value="passenger initial tests completed" />
-    <option name="LAST_COMMIT_MESSAGE" value="passenger initial tests completed" />
+    <MESSAGE value="plane tests completed" />
+    <option name="LAST_COMMIT_MESSAGE" value="plane tests completed" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
